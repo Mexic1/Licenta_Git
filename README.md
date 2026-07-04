@@ -1,5 +1,5 @@
 # Infrastructură de Rețea Redundantă și Securizată pentru un Complex Spitalicesc Multi-Site (GNS3)
-
+https://github.com/Mexic1/Licenta_Git
 Acest repository conține aplicația practică a lucrării de licență: proiectarea și implementarea unei infrastructuri de rețea redundante și securizate pentru un complex spitalicesc distribuit pe mai multe locații, simulată integral în GNS3.
 
 **Autor:** Morar Cosmin-Valentin

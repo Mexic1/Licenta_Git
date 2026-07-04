@@ -15,18 +15,6 @@ Infrastructura urmează un model **hub-and-spoke**, în care o clădire central�
 
 Main Building constituie aria de backbone OSPF (aria 0) și găzduiește serverele de infrastructură: Zabbix (monitorizare), DNS/DHCP, AAA/TACACS+ (autentificare centralizată) și Ansible (automatizare). Fiecare site periferic rulează o arie OSPF proprie și este conectat la clădirea centrală prin tuneluri GRE over IPsec. Segmentul DataCenter este atașat prin GNS3 Cloud și oferă acces la internet, precum și serviciile centralizate de NTP și Syslog.
 
-## Structura repository-ului
-
-```
-.
-├── Topologie_Spital/
-│   ├── Spital.gns3project          # topologia GNS3 a rețelei spitalului
-│   └── configs/                    # backup-uri configurații (routere, switch-uri, ASAv)
-├── Topologie_DataCenter/
-│   ├── DataCenter.gns3project      # topologia GNS3 a segmentului DataCenter
-│   └── configs/                    # backup-uri configurații
-└── README.md
-```
 
 ## Funcționalități implementate
 

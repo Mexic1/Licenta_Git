@@ -48,7 +48,7 @@ Main Building constituie aria de backbone OSPF (aria 0) și găzduiește servere
 
 1. Se instalează GNS3 (și GNS3 VM, dacă rularea e locală) sau se folosește un server GNS3 dedicat.
 2. Se importă în GNS3 imaginile Cisco IOL, imaginea Cisco ASAv și imaginile Ubuntu.
-3. Se importă cele două topologii (`Spital.gns3project` și `DataCenter.gns3project`).
+3. Se importă cele două topologii (`Licenta_Main.gns3project` și `Licenta_DataCenter.gns3project`).
 4. Se verifică asocierea corectă a imaginilor și a interfețelor Cloud/GNS3.
 5. Se pornesc echipamentele — se recomandă întâi DataCenter-ul, apoi rețeaua spitalului.
 6. Se așteaptă câteva minute pentru încărcarea configurațiilor, stabilirea vecinătăților OSPF, ridicarea tunelurilor și pornirea serviciilor.
